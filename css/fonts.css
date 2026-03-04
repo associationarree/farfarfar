@@ -1,0 +1,54 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+
+a {
+  outline: none;
+  text-decoration: none;
+}
+
+a:link {
+  color: #000000;
+}
+
+a:visited {
+  color: rgb(0, 0, 0);
+}
+
+a:focus {
+  background: #ffffff;
+}
+
+a:hover {
+  background: #ffffff;
+  filter:blur(1px);
+  color: rgb(0, 0, 0);
+}
+
+a:active {
+  background: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+}
+
+
+
+@media(min-width:1000px){
+    .atre{
+      margin-top: 0px;
+    }
+
+}
+
+
+
+@media(max-width:1000px){
+    .atre{
+      margin-top: 200px;
+    }
+
+}
+
+
+

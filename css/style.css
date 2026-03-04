@@ -1,0 +1,73 @@
+html, body {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            overflow: hidden;
+            background: black;
+        }
+
+        .far-image {
+            width: 100vw;
+            height: 100vh;
+            background-position: center center;
+            background-size: cover;
+            background-repeat: no-repeat;
+            cursor: pointer;
+            transition: opacity 0.5s ease;
+        }
+
+        #toggleMode {
+            position: fixed;
+            top: 25px;
+            left: 50%;
+            transform: translateX(-50%);
+            padding: 10px 20px;
+            font-size: 8px;
+            letter-spacing: 1px;
+            cursor: pointer;
+            background: rgba(255,255,255,0.1);
+            color: white;
+            border: 1px solid white;
+            backdrop-filter: blur(6px);
+            transition: 0.3s;
+            z-index: 10;
+            }
+
+        #toggleMode:hover {
+            background: white;
+            color: black;
+        }
+
+
+        .p-bloc {
+            position: fixed;
+            right: 15px;
+            bottom: -5%;
+            z-index: 900;
+            font-size: 50px;
+        }
+
+
+        
+a {
+  outline: none;
+  text-decoration: none;
+}
+
+a:link {
+  color: #ffffff;
+}
+
+a:visited {
+  color: rgb(255, 255, 255);
+}
+
+a:hover {
+    filter:blur(1px);
+  color: rgb(255, 255, 255);
+}
+
+a:active {
+  background: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+}
