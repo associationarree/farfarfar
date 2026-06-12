@@ -32,11 +32,9 @@ a:active {
   color: rgb(0, 0, 0);
 }
 
-
-
 @media(min-width:1000px){
     .atre{
-      margin-top: 0px;
+      margin-top: 110px;
     }
 
 }
@@ -45,10 +43,30 @@ a:active {
 
 @media(max-width:1000px){
     .atre{
-      margin-top: 200px;
+      margin-top: 80px;
+    }
+
+}
+
+
+@media(min-width:1000px){
+    .ig{
+      width: 20%;
+    }
+
+}
+
+@media(max-width:1000px){
+    .ig{
+      width: 40%;
     }
 
 }
 
 
 
+
+.txt {
+  margin-left: 50px;
+  margin-right: 50px;
+}
